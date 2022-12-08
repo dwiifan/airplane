@@ -1,4 +1,3 @@
-
 import 'package:airplane/models/destination_models.dart';
 import 'package:airplane/services/desination_service.dart';
 import 'package:bloc/bloc.dart';

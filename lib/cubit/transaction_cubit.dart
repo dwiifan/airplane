@@ -31,3 +31,9 @@ class TransactionCubit extends Cubit<TransactionState> {
     }
   }
 }
+
+class TransactionServices {
+  createTransaction(TransactionModel transaction) {}
+
+  fetchTransactions() {}
+}

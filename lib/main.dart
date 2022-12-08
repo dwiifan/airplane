@@ -9,6 +9,7 @@ import 'package:airplane/ui/pages/main_page.dart';
 import 'package:airplane/ui/pages/sing_in_page.dart';
 import 'package:airplane/ui/pages/sing_up_page.dart';
 import 'package:airplane/ui/pages/success_checkout_page.dart';
+import 'package:airplane/ui/pages/transaction_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

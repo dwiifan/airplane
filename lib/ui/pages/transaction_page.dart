@@ -33,16 +33,15 @@ class _TransactionPageState extends State<TransactionPage> {
             );
           } else {
             return ListView.builder(
-              itemCount: state.transactions.length,
-              padding: EdgeInsets.symmetric(
-                horizontal: defaultMargin,
-              ),
-              itemBuilder: (context, index) {
-                return TransactionCard(
-                  state.transactions[index],
-                );
-              },
-            );
+                itemCount: state.transactions.length,
+                padding: EdgeInsets.symmetric(
+                  horizontal: defaultMargin,
+                ),
+                itemBuilder: (context, index) {
+                  return TransactionCard(
+                    state.transactions[index],
+                  );
+                });
           }
         }
 

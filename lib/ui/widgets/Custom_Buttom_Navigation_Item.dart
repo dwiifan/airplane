@@ -3,11 +3,11 @@ import 'package:airplane/shared/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class customButtomNavigationItem extends StatelessWidget {
+class CustomButtomNavigationItem extends StatelessWidget {
   final int index;
-  final String ImageUrl;
+  final ImageUrl;
 
-  const customButtomNavigationItem({
+  const CustomButtomNavigationItem({
     Key? key,
     required this.index,
     required this.ImageUrl,

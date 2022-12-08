@@ -2,8 +2,8 @@ import 'package:airplane/models/destination_models.dart';
 import 'package:equatable/equatable.dart';
 
 class TransactionModel extends Equatable {
-  final DestinationModel destination;
   final String id;
+  final DestinationModel destination;
   final int amountOfTraveler;
   final String selectedSeats;
   final bool insurance;
@@ -30,7 +30,7 @@ class TransactionModel extends Equatable {
             json['destination']['id'], json['destination']),
         id: id,
         amountOfTraveler: json['amountOfTraveler'],
-        selectedSeats: json['selectSeats'],
+        selectedSeats: json['selectedSeats'],
         insurance: json['insurance'],
         refundable: json['refundable'],
         vat: json['vat'],
@@ -38,6 +38,7 @@ class TransactionModel extends Equatable {
         grandTotal: json['grandTotal'],
       );
 
+  @override
   List<Object?> get props => [
         destination,
         amountOfTraveler,

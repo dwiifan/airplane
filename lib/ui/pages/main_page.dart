@@ -44,19 +44,19 @@ class MainPage extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              customButtomNavigationItem(
+              CustomButtomNavigationItem(
                 index: 0,
                 ImageUrl: 'assets/icon_home.png',
               ),
-              customButtomNavigationItem(
+              CustomButtomNavigationItem(
                 index: 1,
                 ImageUrl: 'assets/icon_booking.png',
               ),
-              customButtomNavigationItem(
+              CustomButtomNavigationItem(
                 index: 2,
                 ImageUrl: 'assets/icon_card.png',
               ),
-              customButtomNavigationItem(
+              CustomButtomNavigationItem(
                 index: 3,
                 ImageUrl: 'assets/icon_settings.png',
               ),
